@@ -1,7 +1,0 @@
-﻿Variable,PV Name,Device Min,Device Max,Units,Astra Name,Astra Units,Distgen Name,Distgen Units,Notes
-Gun gradient,GUN:GUNB:100:AACT,0,20,MV,Proportional to MaxE,,N/A,N/A,
-Correlates to aperture size,IRIS:LGUN:600:MOTR_ANGLE,0,300,Degrees,N/A,N/A,N/A,N/A,"Can be used to look up the aperture size, for laser radius in mm."
-Gun Phase,GUN:GUNB:100:POPEN,N/A,N/A,Degree,Phi(1),Degrees,N/A,N/A,Needs to be shifted relative to setpoint
-Solenoid,SOLN:GUNB:823:BACT,-0.075,0.075,kG-m,MaxB(2),kG,N/A,N/A,
-Charge,TORO:GUNB:360:CHRG,0,N/A,pC,N/A,N/A,"""total_charge:value""",pC,
-,,,,,,,,,

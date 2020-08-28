@@ -7,8 +7,8 @@
             "units": "kG",
             "default": 0.1,
             "range": [
-                0.0000027,
-                0.0999992
+                0,
+                0.1
             ]
         },
         "phi(1)": {
@@ -16,23 +16,23 @@
             "units": "Deg",
             "default": 0,
             "range": [
-                -9.9998479,
-                9.9998162
+                -10,
+                10
             ]
         },
         "total_charge:value": {
             "variable_type": "scalar",
             "units": "PicoCoul",
-            "default": 0,
+            "default": 75,
             "range": [
-                0.0041992,
-                299.9905896
+                0,
+                300
             ]
         },
         "in_xmin": {
             "variable_type": "scalar",
             "units": "mm",
-            "default": 75,
+            "default": -0.40510409,
             "range": [
                 -1,
                 1
@@ -42,7 +42,7 @@
         "in_xmax": {
             "variable_type": "scalar",
             "units": "mm",
-            "default": -1,
+            "default": 0.37911152,
             "range": [
                 -1,
                 1
@@ -52,7 +52,7 @@
         "in_ymin": {
             "variable_type": "scalar",
             "units": "mm",
-            "default": 1,
+            "default": -0.42488133,
             "range": [
                 -1,
                 1
@@ -62,7 +62,7 @@
         "in_ymax": {
             "variable_type": "scalar",
             "units": "mm",
-            "default": -1,
+            "default": 0.41626165,
             "range": [
                 -1,
                 1
